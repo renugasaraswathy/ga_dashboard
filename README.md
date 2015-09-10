@@ -83,7 +83,7 @@ display_most_popular_pages(ga_dashboard_api,pages_starting_with,start_date,end_d
 ```
 
 #####Screenshot
-![ScreenShot](https://googledrive.com/host/0B-YetaqqmGclN1lzbm1KWGZCekE/popular_pages.png)
+![ScreenShot](https://cloud.githubusercontent.com/assets/5791109/9786988/2e60dc24-57dc-11e5-8b24-2dff588b5632.png)
 
 ####2. Users count from various countries across the world
 
@@ -101,7 +101,7 @@ display_users_from_countries_across_world(ga_dashboard_api,start_date,end_date,i
 <%= display_users_from_countries_across_world(@ga_dashboard_api,DateTime.now-2.months,DateTime.now,'world','map',{:title=>'Users Across world'}) %>
 ```
 #####Screenshot
-![ScreenShot](https://googledrive.com/host/0B-YetaqqmGclN1lzbm1KWGZCekE/world.png)
+![ScreenShot](https://cloud.githubusercontent.com/assets/5791109/9787004/50f287d8-57dc-11e5-9a5e-a300b0d03879.png)
 
 #####Example: Using Table
 
@@ -110,7 +110,7 @@ display_users_from_countries_across_world(ga_dashboard_api,start_date,end_date,i
 <%= display_users_from_countries_across_world(@ga_dashboard_api,DateTime.now-2.months,DateTime.now,'world1','table',{:title=>'Users Across world'}) %>
 ```
 #####Screenshot
-![ScreenShot](https://googledrive.com/host/0B-YetaqqmGclN1lzbm1KWGZCekE/world_table.png)
+![ScreenShot](https://cloud.githubusercontent.com/assets/5791109/9787009/641a3e46-57dc-11e5-9cbe-23ac7beb01c5.png)
 
 ####3. Users count from various countries in a continent
 ```Ruby
@@ -125,13 +125,13 @@ display_users_from_countries_of_continent(ga_dashboard_api,continent,start_date,
 <%= display_users_from_countries_of_continent(@ga_dashboard_api,"Asia",DateTime.now-2.months,DateTime.now,'continent','map',{:title=>"Users from Asia"}) %>
 ```
 #####Screenshot
-![ScreenShot](https://googledrive.com/host/0B-YetaqqmGclN1lzbm1KWGZCekE/continent.png)
+![ScreenShot](https://cloud.githubusercontent.com/assets/5791109/9787020/74ba516e-57dc-11e5-9079-e81f61c37b0d.png)
 
 ####4. Users count from various cities of a country
 ```Ruby
 display_users_from_cities_of_country(ga_dashboard_api,country,start_date,end_date,id_of_the_division,format="table",options={})
 ```
-*Acceptable country names are listed [here](../Countries.txt?raw=true)*
+*Acceptable country names are listed [here](https://github.com/renugasaraswathy/ga_dashboard/blob/master/Countries.txt)*
 
 #####Example: Using Map
 
@@ -140,7 +140,7 @@ display_users_from_cities_of_country(ga_dashboard_api,country,start_date,end_dat
 <%= display_users_from_cities_of_country(@ga_dashboard_api,"India",DateTime.now-2.months,DateTime.now,'country','map',{:title=>"Users from India"}) %>
 ```
 #####Screenshot
-![ScreenShot](https://googledrive.com/host/0B-YetaqqmGclN1lzbm1KWGZCekE/country.png)
+![ScreenShot](https://cloud.githubusercontent.com/assets/5791109/9787025/8899ec44-57dc-11e5-94e3-9e5e4750ea20.png)
 
 ####5. Users Overview
 ```Ruby
@@ -156,14 +156,14 @@ display_users_overview(ga_dashboard_api,start_date,end_date,region_type,region,d
 <%= display_users_overview(@ga_dashboard_api,DateTime.now-2.months,DateTime.now,'country','India','users_overview1',{:title=>"Users Overview",:height=>'500'}) %>
 ```
 #####Screenshot
-![ScreenShot](https://googledrive.com/host/0B-YetaqqmGclN1lzbm1KWGZCekE/users_overview1.png)
+![ScreenShot](https://cloud.githubusercontent.com/assets/5791109/9787041/ad21a7a0-57dc-11e5-8ba8-69af02bce7f0.png)
 
 ```Ruby
 <div id='users_overview2'></div>
 <%= display_users_overview(@ga_dashboard_api,DateTime.now-1.months,DateTime.now,'country','India','users_overview2',{:title=>"Users Overview",:height=>'500'}) %>
 ```
 #####Screenshot
-![ScreenShot](https://googledrive.com/host/0B-YetaqqmGclN1lzbm1KWGZCekE/users_overview2.png)
+![ScreenShot](https://cloud.githubusercontent.com/assets/5791109/9787043/ada4fa7e-57dc-11e5-8dcc-65232ac4db65.png)
 
 ## Contributing
 
