@@ -167,7 +167,7 @@ display_users_overview(ga_dashboard_api,start_date,end_date,region_type,region,d
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/renugasaraswathy/ga_dashboard. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/renugasaraswathy/ga_dashboard. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the code of conduct.
 
 
 ## License
